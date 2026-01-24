@@ -4,8 +4,8 @@ name: Aurum Crypto Gold Node
 version: "1.0.0"
 tagline: "Run an ACG full node on Umbrel"
 icon: icon.png
-category: blockchain
-developer: "Headcrusher997"
+category: crypto
+developer: "Darth999"
 website: "https://github.com/AurumCryptoGold/aurum"
 description: |
   A full Aurum Crypto Gold (ACG) node running directly on your Umbrel OS 1.5 system.
@@ -16,3 +16,4 @@ dependencies: []
 ports:
   - 8332
   - 8333
+
