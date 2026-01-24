@@ -4,5 +4,6 @@ publisher: Darth999
 version: "1.0.0"
 type: repository
 description: A community app store containing the ACG full node.
+
 apps:
-  - id: acg
+  - https://github.com/Darth999/acg-umbrel-app-store/acg
