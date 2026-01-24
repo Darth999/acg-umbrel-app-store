@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  acg-node:
+    build: .
+    container_name: acg-node
+    restart: unless-stopped
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    ports:
+      - "8332:8332"
+      - "8333:8333"
