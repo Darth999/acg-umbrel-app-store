@@ -8,8 +8,9 @@
       "version": "1.0.0",
       "tagline": "Run an ACG full node on Umbrel",
       "icon": "icon.png",
-      "category": "crypto"
+      "category": "bitcoin"
     }
   ]
 
 }
+
