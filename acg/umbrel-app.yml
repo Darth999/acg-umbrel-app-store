@@ -1,3 +1,4 @@
+manifestVersion: 1.1
 id: acg
 name: Aurum Crypto Gold Node
 version: "1.0.0"
@@ -9,5 +10,6 @@ website: "https://github.com/AurumCryptoGold/aurum"
 description: |
   A full Aurum Crypto Gold (ACG) node running directly on your Umbrel OS 1.5 system.
   The node is built from source inside the Docker container for maximum reliability.
+
 
 dependencies: []
