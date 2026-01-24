@@ -1,4 +1,8 @@
 id: acg-store
 name: ACG Umbrel App Store
+publisher: Darth999
+version: "1.0.0"
+type: repository
+description: A community app store containing the ACG full node.
 apps:
-  - acg
+  - id: acg
