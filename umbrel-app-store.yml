@@ -6,5 +6,4 @@ type: repository
 description: A community app store containing the ACG full node.
 
 apps:
-  - https://github.com/Darth999/acg-node-umbrel-app
-
+  - https://github.com/Darth999/acg-node-umbrel-app.git
