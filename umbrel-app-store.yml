@@ -1,0 +1,4 @@
+id: acg-store
+name: ACG Umbrel App Store
+apps:
+  - acg
