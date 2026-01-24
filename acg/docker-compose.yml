@@ -1,9 +1,8 @@
-version: "3.7"
+version: "3.8"
 
 services:
-  acg-node:
+  acg:
     build: .
-    container_name: acg-node
     restart: unless-stopped
     volumes:
       - ${APP_DATA_DIR}/data:/data
