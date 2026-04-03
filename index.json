@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "id": "aurum-node",
+      "name": "Aurum Node",
+      "version": "1.0.0",
+      "repo": "https://github.com/Darth999/acg-umbrel-app-store/tree/main/aurum-node"
+    }
+  ]
+}
