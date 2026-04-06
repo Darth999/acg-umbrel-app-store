@@ -8,7 +8,7 @@ developer: Aurum Project
 website: https://aurum.gold
 repo: https://github.com/Darth999/acg-umbrel-app-store/tree/main/aurum-node
 support: https://github.com/Darth999/acg-umbrel-app-store/issues
-port: null
+port: 9888
 
 description: |
   This app runs the official Aurum Node inside Umbrel OS 1.5.
