@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "id": "aurum-node",
+      "id": "darth999-aurum-node",
       "name": "Aurum Node",
       "version": "1.0.0",
       "repo": "https://github.com/Darth999/acg-umbrel-app-store"
