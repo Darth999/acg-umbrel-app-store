@@ -12,7 +12,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/root/.aurum
     ports:
-      - "9889:9889"    # P2P
+      - "9989:9889"    # P2P
       - "9988:9888"    # RPC
       - "28332:28332"  # ZMQ
     networks:
