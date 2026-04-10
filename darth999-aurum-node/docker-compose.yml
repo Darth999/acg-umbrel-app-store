@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: darth999-aurum-node_aurum-node_1
-      APP_PORT: 8080
+      APP_PORT: 9888
 
   aurum-node:
     image: ariworksonline/aurum-node:latest
@@ -12,7 +12,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/root/.aurum
     ports:
-      - "9889:9889"    # P2P
-      - "9888:9888"    # RPC
+      - "6005:9889"    # P2P
+      - "6004:9888"    # RPC
       - "28332:28332"  # ZMQ
       
