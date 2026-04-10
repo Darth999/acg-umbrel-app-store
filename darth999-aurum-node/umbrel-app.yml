@@ -1,22 +1,18 @@
-id: darth999-aurum-node
-name: Aurum Node
+manifestVersion: 1
+id: darth999-aurum-node   # ← MUSS = Ordnername sein!
+category: finance
+name: Aurum Crypto Gold Node
 version: "1.0.0"
-tagline: Run an Aurum full node on your Umbrel
-icon: https://raw.githubusercontent.com/Darth999/acg-umbrel-app-store/main/aurum-node/assets/icon.png
-category: crypto
-developer: Aurum Project
-website: https://aurum.gold
-repo: https://github.com/Darth999/acg-umbrel-app-store/tree/main/aurum-node
+tagline: Deine ACG Node auf Umbrel
+description: >-
+  Beschreibung hier...
+developer: Darth999
+website: https://github.com/Darth999/acg-umbrel-app-store
+repo: https://github.com/Darth999/acg-umbrel-app-store
 support: https://github.com/Darth999/acg-umbrel-app-store/issues
-port: 9888
-
-description: |
-  This app runs the official Aurum Node inside Umbrel OS 1.5.
-  It uses the official multi-architecture Docker image and stores
-  all blockchain data persistently on your Umbrel device.
-
-releaseNotes: |
-  Initial release of the Aurum Node for Umbrel OS 1.5.
-
-dependencies: []
+port: 8080
+gallery:
+  - 1.jpg
 path: ""
+defaultUsername: ""
+defaultPassword: ""
