@@ -15,8 +15,4 @@ services:
       - "9989:9889"    # P2P
       - "9988:9888"    # RPC
       - "28332:28332"  # ZMQ
-    networks:
-      umbrel_main_network:
-        external: true
-
-  
+   
