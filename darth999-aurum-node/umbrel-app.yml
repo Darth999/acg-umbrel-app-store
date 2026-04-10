@@ -3,7 +3,7 @@ id: darth999-aurum-node
 category: finance
 name: Aurum Crypto Gold Node
 version: "1.0.0"
-icon: icon.png
+icon: https://aurumcrypto.gold/logo192.png
 tagline: ACG Node auf Umbrel
 description: >-
   Aurum Crypto Gold (ACG) ist ein dezentraler Krypto-Node.
