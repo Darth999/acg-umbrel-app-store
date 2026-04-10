@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: darth999-aurum-node_aurum-node_1
-      APP_PORT: 9888
+      APP_PORT: 6004
 
   aurum-node:
     image: ariworksonline/aurum-node:latest
