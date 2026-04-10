@@ -1,16 +1,17 @@
 manifestVersion: 1
-id: darth999-aurum-node   # ← MUSS = Ordnername sein!
-category: crypto
+id: darth999-aurum-node
+category: finance
 name: Aurum Crypto Gold Node
 version: "1.0.0"
 tagline: ACG Node auf Umbrel
 description: >-
-  Beschreibung hier...
+  Aurum Crypto Gold (ACG) ist ein dezentraler Krypto-Node.
+  Betreibe deinen eigenen vollständigen Node auf Umbrel.
 developer: Darth999
 website: https://github.com/Darth999/acg-umbrel-app-store
 repo: https://github.com/Darth999/acg-umbrel-app-store
 support: https://github.com/Darth999/acg-umbrel-app-store/issues
-port: 8080
+port: 9888
 gallery:
   - 1.jpg
 path: ""
