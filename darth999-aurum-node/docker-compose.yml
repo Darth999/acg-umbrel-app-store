@@ -7,7 +7,7 @@ services:
       APP_PORT: 9888
 
   aurum-node:
-    image: ariworksonline/aurum-node:latest@sha256:51bee14363af3d85c2fd3d31845c44825cebef840884f1c9e7d866f3502ed0c7
+    image: ariworksonline/aurum-node:latest
     restart: on-failure
     volumes:
       - ${APP_DATA_DIR}/data:/root/.aurum
