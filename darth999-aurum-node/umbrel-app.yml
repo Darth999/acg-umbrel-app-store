@@ -1,9 +1,9 @@
 manifestVersion: 1
 id: darth999-aurum-node   # ← MUSS = Ordnername sein!
-category: finance
+category: crypto
 name: Aurum Crypto Gold Node
 version: "1.0.0"
-tagline: Deine ACG Node auf Umbrel
+tagline: ACG Node auf Umbrel
 description: >-
   Beschreibung hier...
 developer: Darth999
