@@ -1,20 +1,13 @@
 version: "3.7"
 
 services:
-  aurum-node:
-    image: ariworksonline/aurum-node:latest
-    container_name: aurum-node
-    restart: unless-stopped
-    volumes:
-      - aurum-data:/root/.aurum
-    ports:
-      - "9889:9889"
-      - "9888:9888"
-    healthcheck:
-      test: ["CMD", "nc", "-z", "localhost", "9889"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
+  app_proxy:
+    environment:
+      APP_HOST: darth999-aurum-node_aurum-node_1
+      APP_PORT: 9888
 
-volumes:
-  aurum-data:
+  aurum-node:
+    image: ariworksonline/aurum-node:latest@sha256:<DIGEST_HIER_EINFÜGEN>
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/root/.aurum
