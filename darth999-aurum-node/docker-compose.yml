@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: darth999-aurum-node_aurum-node_1
-      APP_PORT: 9988
+      APP_PORT: 9888
       PROXY_AUTH_ADD: "false"
 
   aurum-node:
@@ -16,14 +16,12 @@ services:
       -server=1
       -rpcallowip=0.0.0.0/0
       -rpcbind=0.0.0.0
-      -rpcport=9988
-      -port=9989
+      -rpcport=9888
+      -port=9889
       -rpcuser=umbrel
       -rpcpassword=${APP_PASSWORD}
     volumes:
       - ${APP_DATA_DIR}/data:/root/.aurum
     ports:
-      - "9989:9889"    # P2P
-      - "9988:9888"    # RPC
-      - "28332:28332"  # ZMQ
-   
+      - "9889:9889"
+      - "28332:28332"
