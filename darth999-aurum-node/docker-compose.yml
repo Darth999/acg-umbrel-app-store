@@ -18,15 +18,17 @@ services:
     image: ariworksonline/aurum-node:latest
     restart: on-failure
     command: >
-      ./src/aurumd
-      -datadir=/root/.aurum
-      -server=1
-      -rpcallowip=0.0.0.0/0
-      -rpcbind=0.0.0.0
-      -rpcport=9888
-      -port=9889
-      -rpcuser=umbrel
-      -rpcpassword=${APP_PASSWORD}
+       ./src/aurumd
+       -datadir=/root/.aurum
+       -server=1
+       -rpcallowip=0.0.0.0/0
+       -rpcbind=0.0.0.0
+       -rpcport=9888
+       -port=9889
+       -rpcuser=umbrel
+       -rpcpassword=${APP_PASSWORD}
+       -zmqpubrawblock=tcp://0.0.0.0:28332
+       -zmqpubrawtx=tcp://0.0.0.0:28332
     volumes:
       - ${APP_DATA_DIR}/data:/root/.aurum
     ports:
