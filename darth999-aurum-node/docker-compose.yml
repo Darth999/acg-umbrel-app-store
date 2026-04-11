@@ -9,6 +9,7 @@ services:
   aurum-node:
     image: ariworksonline/aurum-node:latest
     restart: on-failure
+    command: ./src/aurumd -datadir=/root/.aurum -server=1 -rpcallowip=0.0.0.0/0 -rpcbind=0.0.0.0 -rpcport=9988 -port=9989
     volumes:
       - ${APP_DATA_DIR}/data:/root/.aurum
     ports:
