@@ -16,5 +16,5 @@ port: 9888
 gallery:
   - 1.jpg
 path: ""
-defaultUsername: ""
+defaultUsername: umbrel
 defaultPassword: ""
