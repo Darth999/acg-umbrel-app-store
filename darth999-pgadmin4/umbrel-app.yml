@@ -1,6 +1,9 @@
+manifestVersion: 1
 id: darth999-pgadmin4
+category: "development"
 name: pgAdmin 4
 version: "1.0.0"
+icon: "https://www.pgadmin.org/static/COMPILED/assets/img/postgres-alt.svg"
 tagline: "Webbasierte PostgreSQL-Verwaltung"
 description: "pgAdmin 4 ist das führende Open-Source-Webtool zur Verwaltung von PostgreSQL-Datenbanken."
 developer: "pgAdmin Team"
@@ -8,5 +11,9 @@ website: "https://www.pgadmin.org/"
 repo: "https://github.com/pgadmin-org/pgadmin4"
 support: "https://www.pgadmin.org/support/"
 port: 5050
-icon: "https://www.pgadmin.org/static/COMPILED/assets/img/postgres-alt.svg"
-category: "development"
+gallery:
+  - 1.jpg
+path: ""
+defaultUsername: umbrel
+defaultPassword: ""
+
