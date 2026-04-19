@@ -7,7 +7,7 @@ services:
     restart: unless-stopped
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@umbrel.local
-      PGADMIN_DEFAULT_PASSWORD: umbrel
+      PGADMIN_DEFAULT_PASSWORD: miningcore
     volumes:
       - ${APP_DATA_DIR}/data:/var/lib/pgadmin
     ports:
