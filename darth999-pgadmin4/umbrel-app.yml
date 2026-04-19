@@ -8,5 +8,5 @@ website: "https://www.pgadmin.org/"
 repo: "https://github.com/pgadmin-org/pgadmin4"
 support: "https://www.pgadmin.org/support/"
 port: 5050
-icon: "https://github.com/Darth999/acg-umbrel-app-store/blob/main/darth999-pgadmin4/icon.svg"
+icon: "https://www.pgadmin.org/static/COMPILED/assets/img/postgres-alt.svg"
 category: "development"
