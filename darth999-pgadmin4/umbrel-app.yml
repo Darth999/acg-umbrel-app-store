@@ -12,7 +12,7 @@ repo: "https://github.com/pgadmin-org/pgadmin4"
 support: "https://www.pgadmin.org/support/"
 port: 5050
 gallery:
-  - 1.jpg
+  - 1a.jpg
 path: ""
 defaultUsername: umbrel
 defaultPassword: ""
