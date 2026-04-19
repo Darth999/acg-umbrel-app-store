@@ -12,12 +12,14 @@ services:
       - ${APP_DATA_DIR}/data:/var/lib/pgadmin
     ports:
       - "5050:80"
-    networks:
-      - umbrel_main_network
-      - miningcore-pool_default
+   networks:
+    - umbrel_main_network
+    - miningcore-pool_default
 
 networks:
   umbrel_main_network:
     external: true
+
   miningcore-pool_default:
+    name: miningcore-pool_default
     external: true
