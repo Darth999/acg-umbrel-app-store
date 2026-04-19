@@ -8,5 +8,5 @@ website: "https://www.pgadmin.org/"
 repo: "https://github.com/pgadmin-org/pgadmin4"
 support: "https://www.pgadmin.org/support/"
 port: 5050
-icon: "icon.png"
+icon: "icon.svg"
 category: "development"
