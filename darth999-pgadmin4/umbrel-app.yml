@@ -1,0 +1,12 @@
+id: pgadmin4
+name: pgAdmin 4
+version: "1.0.0"
+tagline: "Webbasierte PostgreSQL-Verwaltung"
+description: "pgAdmin 4 ist das führende Open-Source-Webtool zur Verwaltung von PostgreSQL-Datenbanken."
+developer: "pgAdmin Team"
+website: "https://www.pgadmin.org/"
+repo: "https://github.com/pgadmin-org/pgadmin4"
+support: "https://www.pgadmin.org/support/"
+port: 5050
+icon: "icon.svg"
+category: "development"
